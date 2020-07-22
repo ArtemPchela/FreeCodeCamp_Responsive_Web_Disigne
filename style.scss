@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+
+a {
+  outline: none;
+}
+
+#wrapper {
+  margin: 50px 0;
+
+  #quote-box {
+    background-color: rgba(23, 52, 88, 0.61);
+    border-radius: 10px;
+    border: 1px solid #488082;
+    box-shadow: 5px 5px 5px rgba(23, 52, 88, 0.61);
+    #text {
+      font-size: 2em;
+      font-family: 'Sriracha', cursive;
+    }
+
+    #author {
+      font-size: 1.5em;
+      font-family: "Old English Text MT", cursive;
+    }
+  }
+}
+
+#new-quote {
+  padding: 5px 10px;
+  font-family: "Sitka Banner", sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  background-color: rgba(23, 52, 88, 0.61);
+  border: 1px solid #488082;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgba(23, 52, 88, 0.61);
+  outline: none;
+
+  &:hover {
+    cursor: pointer;
+    transition: 2s;
+    border-radius: 10px;
+    background-color: rgba(23, 52, 88, 0.61);
+    text-shadow: 2px 2px 2px #488082;
+    box-shadow: 5px 5px 5px rgba(23, 52, 88, 0.61);
+    outline: none;
+  }
+}
